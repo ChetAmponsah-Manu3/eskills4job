@@ -1,0 +1,42 @@
+.overview-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.overview-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.overview-header h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin: 0;
+}
+
+.overview-content {
+    line-height: 1.8;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.overview-content p {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    .overview-container {
+        padding: 15px;
+    }
+
+    .overview-header h1 {
+        font-size: 2rem;
+    }
+
+    .overview-content {
+        font-size: 0.9rem;
+    }
+}

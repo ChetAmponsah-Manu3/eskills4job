@@ -1,0 +1,142 @@
+.teachers-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+ 
+  .sidebar {
+    width: 150px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 10px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #34495e;
+  }
+  
+ 
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  
+  .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .profile-table th, .profile-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-table th {
+    width: 150px;
+    background-color: #ecf0f1;
+  }
+  
+  
+  .results-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .results-table th, .results-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .results-table th {
+    background-color: #ecf0f1;
+  }
+  
+  .results-table td button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .results-table td button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  .result-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .result-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .result-form button {
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .result-form button:hover {
+    background-color: #27ae60;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .teachers-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      position: relative;
+    }
+  
+    .content {
+      margin-left: 0;
+    }
+  }
+  
